@@ -1,0 +1,21 @@
+Products
+
+GET
+http://localhost:3000/products
+
+Create
+POST
+http://localhost:3000/product
+{
+  "name":"prod3",
+  "quantity":3,
+  "price":254,
+  "image":"https://www.sdfg.com"
+}
+
+DELETE
+http://localhost:3000/product/65ae64461d0450836d69f585
+
+Update
+PUT
+http://localhost:3000/product/65ae660d5a45fa44abc416a0
